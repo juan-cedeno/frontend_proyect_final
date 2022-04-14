@@ -1,0 +1,61 @@
+.cont_auth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    margin-top: 80px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    border: 1px solid #303138;
+    background-color: transparent;
+    padding: 8px 13px;
+    width: 300px;
+    border-radius: 4px;
+    outline: none;
+    margin: 8px 0px;
+    color: #fff;
+}
+form label {
+    color: #fff;
+    font-size: 13px;
+    margin: 4px 0px;
+}
+form button {
+    background-color: #BB271B;
+    border: 1px solid #BB271B;
+    color: #fff;
+    padding: 9px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form h1 {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+form span {
+    color: #fff;
+    font-size: 14px;
+}
+form a {
+    color: #AD3527;
+}
+.cont_auth img {
+    width: 550px;
+    margin-right: 65px;
+}
+.cont_back_auth{
+    margin-top: 30px;
+}
+.back_auth{
+    margin-right: 76px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}

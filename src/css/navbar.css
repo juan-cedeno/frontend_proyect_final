@@ -1,0 +1,29 @@
+.cont_navbar{
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    color: #aaacad;
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.link_menu{
+    text-decoration: none;
+    color: #55585B;
+    font-size: 14px;
+    margin: 7px 0px;
+}
+.icon-menu{
+    margin-right: 14px;
+    font-size: 16px;
+}
+.home{
+    color: #D5D7DC;
+}
+.icon-active{
+    color: #A42618;
+}

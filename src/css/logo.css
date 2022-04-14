@@ -1,0 +1,12 @@
+.cont_logo{
+    display: flex;
+    align-items: center;
+}
+.title_logo{
+    color: #D5D7DC;
+}
+.fa-film{
+    color: #5A0B08;
+    margin-right: 15px;
+    font-size: 21px;
+}

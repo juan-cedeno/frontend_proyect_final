@@ -1,0 +1,63 @@
+.cont_banner{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.cont_img_banner{
+    width: 650px;
+    height: 435px;
+}
+.img_banner {
+    width: 100%;
+    border-radius: 12px;
+}
+.cont_info{
+    position: absolute;
+    top: 210px;
+    left: 120px;
+}
+.title_banner{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 6px 0px;
+}
+.btn_watch{
+    padding: 11px 40px;
+    background-color: #cc2b1b;
+    border: none;
+    color: #fff;
+    border-radius: 11px;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.btn_more{
+    background-color: #6E4450;
+    border: 0;
+    padding: 9px 13px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 11px;
+    cursor: pointer;
+    outline: none;
+}
+.btnCarrousel{
+    top: -59px;
+    left: 16px;
+    background-color: #983122;
+    width: 200px;
+    font-size: 13px;
+}
+.title_carr{
+    bottom: 111px;
+    position: absolute;
+    left: 23px;
+    font-size: 22px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.react-3d-carousel{
+    height: 570px;
+}

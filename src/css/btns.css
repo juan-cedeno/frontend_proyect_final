@@ -1,0 +1,19 @@
+.cont_btns{
+    position: relative;
+    top: -40px;
+    left: -10px;
+}
+.cont_btns button {
+    background-color: transparent;
+    border: 0;
+    margin: 0px 10px;
+}
+.cont_btns i{
+    font-size: 20px;
+}
+.fa-trash-can{
+    color: red;
+}
+.fa-pen-to-square{
+    color: #2576F5
+}

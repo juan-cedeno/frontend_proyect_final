@@ -1,0 +1,31 @@
+.cont_movies_items{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.movies{
+    width: 180px;
+    margin: 10px 20px;
+    position: relative;
+}
+.movies img {
+    width: 100%;
+    border-radius: 10px;
+}
+.title_movie{
+    margin: 14px 20px;
+    font-size: 24px;
+    color: #ffff;
+}
+
+.title_movie_item{
+    color: #ffff;
+    margin: 10px 0px;
+    font-size: 14px;
+}
+.more_movie{
+    position: relative;
+    top: -307px;
+    right: -137px;
+}
