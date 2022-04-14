@@ -1,4 +1,4 @@
-import { Aside, Banner, Menu, MovieItems } from "../components"
+import { Aside, MovieItems } from "../components"
 import { useForm } from '../hooks/useForm';
 import { FormEvent, useContext, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
@@ -20,7 +20,7 @@ export const SearchPage = () => {
 
     const {searchMovie , getMovies} = useContext(MovieContext)
 
-    const movie = searchMovie(q)
+    const movie = searchMovie(q as string)
 
     const {searchMovieQuery} = form
     const navigate = useNavigate()
@@ -48,7 +48,7 @@ export const SearchPage = () => {
                     <input 
                         type="search" 
                         name="searchMovieQuery" 
-                        value={searchMovieQuery}
+                        value={searchMovieQuery as string}
                         onChange={handlenChange}
                         placeholder="Search a movie"
                         autoComplete="off"
