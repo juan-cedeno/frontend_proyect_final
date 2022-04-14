@@ -2,7 +2,7 @@ import { Aside, MovieItems } from "../components"
 import { useForm } from '../hooks/useForm';
 import { FormEvent, useContext, useEffect } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import querystring, { ParsedQuery } from 'query-string'
+import querystring from 'query-string'
 import { MovieContext } from '../context/movie/MovieContex';
 /* @ts-ignore */
 import Fade from 'react-reveal/Fade';
@@ -14,7 +14,7 @@ export const SearchPage = () => {
     const {search} = useLocation()
     const {q = ''} = querystring.parse(search)
 
-    const {form,handlenChange,clearForm} = useForm({
+    const {form,handlenChange} = useForm({
         searchMovieQuery: q
     })
 

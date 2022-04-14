@@ -13,7 +13,7 @@ import { PublicRouter } from "./PublicRouter";
 
 export const AppRouter = () => {
 
-    const {startChecking , userState} = useContext(UserContext)
+    const {startChecking} = useContext(UserContext)
 
 
     useEffect(() => {

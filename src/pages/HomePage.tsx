@@ -1,6 +1,6 @@
 import {MoviesPages } from "."
-import { Aside, Menu } from "../components"
-import { AsideRight } from "../components/AsideRight"
+import { Aside } from "../components"
+
 
 import '../css/home.css'
 

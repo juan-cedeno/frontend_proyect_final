@@ -1,6 +1,5 @@
 import { createContext } from 'react';
 import { UserState } from './UserProvider';
-import { User } from '../../interfaces/User';
 
 interface ContextProps {
     userState: UserState

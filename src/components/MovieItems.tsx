@@ -1,11 +1,10 @@
 import { Movie } from '../interfaces/Movies';
 import { BtnMore } from './BtnMore';
-
-import '../css/moviesItems.css'
-import { BtnWatch } from './BtnWatch';
 import { BtnDeleteAndUpdate } from '.';
 import { useContext } from 'react';
 import { UserContext } from '../context/user/UserContext';
+
+import '../css/moviesItems.css'
 
 interface Props {
     items: Movie
@@ -20,7 +19,7 @@ export const MovieItems = ({items}: Props) => {
         <div className='movies'>
             <>
                 {
-                    poster_path ? <img src={poster_path} alt={title} /> : <img src={require('../assets/noImage.png')} alt="No image" />
+                    poster_path ? <img src={poster_path} alt={title} /> : <img src={require('../assets/noImage.png')} alt="No" />
                 }
             </>
             <p className='title_movie_item'>{title}</p>

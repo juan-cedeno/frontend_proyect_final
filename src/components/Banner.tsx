@@ -1,7 +1,5 @@
-import { useContext, useEffect } from 'react';
+import { useContext } from 'react';
 import { MovieContext } from '../context/movie/MovieContex';
-import { Movie } from '../interfaces/Movies';
-import { BtnMore } from "./BtnMore";
 /* @ts-ignore */
 import {Carousel} from '3d-react-carousal';
 
@@ -13,8 +11,8 @@ import { BtnMoreCarousel } from './BtnMoreCarousel';
 
 export const Banner = () => {
 
-    const {state , getMovies} = useContext(MovieContext)
-    const {movies,loading} = state
+    const {state} = useContext(MovieContext)
+    const {movies} = state
 
 
     const imgs = movies.map(item => (

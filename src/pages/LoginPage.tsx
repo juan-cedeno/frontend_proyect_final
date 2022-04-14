@@ -1,4 +1,4 @@
-import { FormEvent, useContext, useState, useEffect } from 'react';
+import { FormEvent, useContext } from 'react';
 import { Link } from 'react-router-dom'
 import '../css/auth.css'
 import { useForm } from '../hooks/useForm'
@@ -13,11 +13,10 @@ interface User {
 
 export const LoginPage = () => {
 
-    const {login,userState} = useContext(UserContext)
+    const {login , userState} = useContext(UserContext)
+    console.log(userState.user);
+    
 
-    const {user} = userState
-    
-    
     const {form,handlenChange} = useForm<User>({
         email: '',
         password: ''
@@ -28,6 +27,7 @@ export const LoginPage = () => {
     const handlenSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault()
          login (email , password)
+         
     }
     
     
